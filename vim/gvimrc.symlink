@@ -1,0 +1,9 @@
+colorscheme zenburn
+
+set antialias
+
+if has("gui_macvim")
+  set antialias
+  set guioptions=aAce
+  set guifont=Inconsolata-g:h11
+endif
