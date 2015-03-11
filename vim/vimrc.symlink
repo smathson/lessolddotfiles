@@ -10,7 +10,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " Vundle itself
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 
 " Language plugins
 Bundle 'vim-ruby/vim-ruby'
