@@ -108,7 +108,6 @@ set nowritebackup
 set vb
 set hidden
 set laststatus=2
-set relativenumber
 set number
 
 " Whitespace
