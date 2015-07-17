@@ -79,10 +79,6 @@ let g:Powerline_stl_path_style = 'relative'
 let g:Powerline_colorscheme = 'zenburn'
 set nosmd   " Don't show mode in status line
 
-" EasyMotion!!
-Bundle 'Lokaltog/vim-easymotion'
-let g:EasyMotion_leader_key = '<Space>'
-
 " Matchit for file recognition
 runtime macros/matchit.vim
 filetype plugin on
