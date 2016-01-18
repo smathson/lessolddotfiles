@@ -16,7 +16,6 @@ Bundle 'gmarik/Vundle.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'pangloss/vim-javascript'
-Bundle 'leafgarland/typescript-vim'
 Bundle 'groenewege/vim-less'
 
 " Syntax checking
