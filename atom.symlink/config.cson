@@ -1,0 +1,43 @@
+"*":
+  "exception-reporting":
+    userId: "1e36f495-de55-09cf-0e1d-0129b980b551"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    disabledPackages: [
+      "git-blame"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "menlo"
+    preferredLineLength: 120
+    showInvisibles: true
+    fontSize: 12
+  minimap:
+    absoluteMode: true
+  linter:
+    showErrorPanel: false
+    lintOnFly: false
+  "linter-jshint": {}
+  "linter-jscs":
+    onlyConfig: true
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    useGlobalEslint: true
+    globalNodePath: "/usr/local"
+  "tree-view":
+    showOnRightSide: true
+  "terminal-status": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  tabs: {}
+  "autocomplete-plus": {}
+  "atom-beautify":
+    _analyticsUserId: "548b96f1-1c7c-4ac4-a6c1-56fb815c37ee"
+".angular.html.text":
+  editor:
+    preferredLineLength: 120
