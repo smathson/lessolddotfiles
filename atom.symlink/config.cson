@@ -1,43 +1,40 @@
 "*":
-  "exception-reporting":
-    userId: "1e36f495-de55-09cf-0e1d-0129b980b551"
-  welcome:
-    showOnStartup: false
+  "atom-beautify":
+    _analyticsUserId: "548b96f1-1c7c-4ac4-a6c1-56fb815c37ee"
+  "autocomplete-plus": {}
   core:
     themes: [
       "atom-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-    disabledPackages: [
-      "git-blame"
-    ]
   editor:
-    invisibles: {}
     fontFamily: "menlo"
+    fontSize: 12
+    invisibles: {}
     preferredLineLength: 120
     showInvisibles: true
-    fontSize: 12
-  minimap:
-    absoluteMode: true
+  "exception-reporting":
+    userId: "1e36f495-de55-09cf-0e1d-0129b980b551"
   linter:
-    showErrorPanel: false
     lintOnFly: false
-  "linter-jshint": {}
-  "linter-jscs":
-    onlyConfig: true
+    showErrorPanel: false
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
-    useGlobalEslint: true
     globalNodePath: "/usr/local"
+    useGlobalEslint: true
+  "linter-jscs":
+    onlyConfig: true
+  "linter-jshint": {}
+  minimap:
+    absoluteMode: true
+  tabs: {}
+  "terminal-status": {}
   "tree-view":
     showOnRightSide: true
-  "terminal-status": {}
   "vim-mode":
     useClipboardAsDefaultRegister: true
-  tabs: {}
-  "autocomplete-plus": {}
-  "atom-beautify":
-    _analyticsUserId: "548b96f1-1c7c-4ac4-a6c1-56fb815c37ee"
+  welcome:
+    showOnStartup: false
 ".angular.html.text":
   editor:
     preferredLineLength: 120
