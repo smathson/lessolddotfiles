@@ -112,7 +112,7 @@ vnoremap <Space> zf
 " ==================================================
 "   Display settings
 " ==================================================
-colorscheme zenburn
+colorscheme Tomorrow-Night-Eighties
 
 " General
 syntax enable
