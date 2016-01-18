@@ -1,7 +1,5 @@
 set shell=/bin/bash
-
 set nocompatible
-
 
 " ==================================================
 "   Setup vundle and plugins
@@ -17,6 +15,10 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'pangloss/vim-javascript'
 Bundle 'groenewege/vim-less'
+Bundle 'elzr/vim-json'
+
+" Don't do concealing for JSON
+let g:vim_json_syntax_conceal = 0
 
 " Syntax checking
 Bundle 'scrooloose/syntastic'
