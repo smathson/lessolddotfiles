@@ -8,7 +8,7 @@
       "base16-tomorrow-dark-theme"
     ]
   editor:
-    fontFamily: "menlo"
+    fontFamily: "droid sans mono"
     fontSize: 12
     invisibles: {}
     preferredLineLength: 120
@@ -21,7 +21,6 @@
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     globalNodePath: "/usr/local"
-    useGlobalEslint: true
   "linter-jscs":
     onlyConfig: true
   "linter-jshint": {}
